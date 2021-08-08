@@ -1,0 +1,149 @@
+.container {
+    width: 960px;
+    margin: auto;
+    background: #efefef;
+}
+
+.header-text {
+    text-align: center;
+    color: #333333;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 5px solid #bfbfbf;
+}
+
+.side-nav-container aside {
+    float: right;
+}
+
+.action-button {
+    display: block;
+    width: 200px;
+    background-color: #72c3dc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    border-bottom: 5px solid #2b8ead;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cards {
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    padding: 60px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-3,
+.card-5,
+.card-9 {
+    background-color: #2f454e;
+}
+
+.card-2,
+.card-4 {
+    background-color: #2b8ead;
+}
+
+.card-1,
+.card-8 {
+    background-color: #6f98a8;
+}
+
+.card-6,
+.card-7 {
+    background-color: #bfbfbf;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    color: #333333;
+    padding: 5px;
+}
+
+@media screen and (max-width: 959px) {
+    .container {
+        background: #ffffff;
+        width: 100%;
+    }
+
+    header {
+        border: none;
+        background: #333333;
+        color: #fff;
+    }
+
+    .header-text {
+        color: #ffffff;
+    }
+
+    .side-nav-container aside {
+        text-align: center;
+        margin: 10px;
+        float: none;
+    }
+
+    .action-button {
+        width: 135px;
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .grid-container {
+        grid-template-columns: none;
+    }
+
+    .grid-item {
+        margin: 4px 0;
+        font-size: 30px;
+        padding: 10px;
+        color: #333333;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6,
+    .card-7,
+    .card-8,
+    .card-9 {
+        background-color: #efefef;
+    }
+
+    .card-3,
+    .card-5,
+    .card-9 {
+        border-left: 15px solid #2f454e;
+    }
+
+    .card-2,
+    .card-4 {
+        border-left: 15px solid #2b8ead;
+    }
+
+    .card-1,
+    .card-8 {
+        border-left: 15px solid #6f98a8;
+    }
+
+    .card-6,
+    .card-7 {
+        border-left: 15px solid #bfbfbf;
+    }
+}
